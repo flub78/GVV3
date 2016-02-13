@@ -1,0 +1,9 @@
+En développement il est possible d'utiliser un script pour fusionner les projets citemplate et gvv3 dans un répertoire utilisable pour le test.
+
+cd
+cd git/rtf
+source ./setenv.sh 
+
+cd tools
+./meta.rb clone /home/frederic/git/citemplate /home/frederic/web/gvv3
+./meta.rb clone /home/frederic/git/GVV3 /home/frederic/web/gvv3

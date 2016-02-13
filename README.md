@@ -29,35 +29,35 @@ Git repo: https://github.com/flub78/GVV3
 ## Installation
 
 ### Pré-requis
-    * Un serveur WEB, par exemple Apache
-    * Un serveur Mysql, (ou autre base de données supporté par CodeIgniter 3)
-    * PHP 5.5 ou supérieur
+* Un serveur WEB, par exemple Apache
+* Un serveur Mysql, (ou autre base de données supporté par CodeIgniter 3)
+* PHP 5.5 ou supérieur
     
 ### Etapes
-    * Extraire le projet citemplate dans le répertoire de votre serveur WEB (/var/www/html sous Ubuntu). GVV3 peut aussi être installé en https.
-    * Extraire ce projet dnas le même répertoire. (Certain fichiers sont remplacés)
-    * Créer une base de données et un utilisateur
-    * Editer et adapter les fichiers application/config/config.php et application/config/database.php
+* Extraire le projet citemplate dans le répertoire de votre serveur WEB (/var/www/html sous Ubuntu). GVV3 peut aussi être installé en https.
+* Extraire ce projet dnas le même répertoire. (Certain fichiers sont remplacés)
+* Créer une base de données et un utilisateur
+* Editer et adapter les fichiers application/config/config.php et application/config/database.php
     
-    * Lancer le programme, suivez ses indications sur les droits des répertoires
-    * Il créera lui même 
+* Lancer le programme, suivez ses indications sur les droits des répertoires
+* Il créera lui même les tables de la base de données 
     
 #### Installation sur une base GVV2 active
 
-    Il est possible de faire fonctionner le programme sur une base GVV2 active. Référencez juste la base et l'utilisateur GVV2.
-    Attention des tables suplémentaries vont être crées dans la base. Elle ne seront pas sauvegardées par GVV2. La compatibilité n'est assurée qu'entre la dernière version de GVV2 et les premières version de GVV3. Les évolutions de GVV3 pour faire migrer la base de façon incompatible avec GVV3.
+Il est possible de faire fonctionner le programme sur une base GVV2 active. Référencez juste la base et l'utilisateur GVV2.
+Attention des tables suplémentaries vont être crées dans la base. Elle ne seront pas sauvegardées par GVV2. La compatibilité n'est assurée qu'entre la dernière version de GVV2 et les premières version de GVV3. Les évolutions de GVV3 pour faire migrer la base de façon incompatible avec GVV3.
     
-    C'est une configuration de dévelopement et de test
+C'est une configuration de dévelopement et de test
     
 #### Installation à partir d'une sauvegarde de GVV2
 
-    Si vous copiez la denière sauvegarde de GVV2 sous install/database.sql, votre sauvegarde sera utilisée pour peupler 
-    la base de données. Attention cela ne fonctionne qu'avec la dernière version de GVV2. Si vous n'êtes pas à jour,
-    effectuez d'abord la mise à jour.    
+Si vous copiez la denière sauvegarde de GVV2 sous install/database.sql, votre sauvegarde sera utilisée pour peupler 
+la base de données. Attention cela ne fonctionne qu'avec la dernière version de GVV2. Si vous n'êtes pas à jour,
+effectuez d'abord la mise à jour.    
 
 #### Mise à jour
 
-    * Sauvegardez votre base et vos fichiers de configuration
-    * Copiez juste la nouvelle version du programme (d'abord citemplate, puis GVV3) dans le répertoire de votre serveur WEB.
-    * Fusionnez vos ficheir de configuration avec la version du programme. Ou ajoutez les nouveaux paramètres s'il y en a dans vos fichiers de configuration.
-    * Relancez le programme, la migration de la base de données est automatique.
+* Sauvegardez votre base et vos fichiers de configuration
+* Copiez juste la nouvelle version du programme (d'abord citemplate, puis GVV3) dans le répertoire de votre serveur WEB.
+* Fusionnez vos ficheir de configuration avec la version du programme. Ou ajoutez les nouveaux paramètres s'il y en a dans vos fichiers de configuration.
+* Relancez le programme, la migration de la base de données est automatique.

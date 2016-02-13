@@ -19,4 +19,9 @@ Evolutions par rapport à la version 2
 * Le module d'identification qui provoquait des déconnexions intempestives a été remplacé
 * Il offre des API REST pour l'interconnection avec d'autres programmes. Il est inteconnecté avec glidernet pour la saisie automatique des planches et il est prévu de l'interconnecter avec les serveurs de la FFVV
 
+Liens
+-----
+
 Lien vers la version 2: http://projets.developpez.com/projects/gvv/wiki/Documentation_utilisateur
+
+Git repo: https://github.com/flub78/GVV3

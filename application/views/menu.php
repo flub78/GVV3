@@ -153,10 +153,25 @@ $menu_members = array (
         //		'class' => 'menuheader',
         'submenu' => array (
                 array (
-                        'label' => "Licences",
+                        'label' => "Association",
+                        'url' => controller_url ( "FFVV/association" )
+                ),
+                array (
+                        'label' => "Licenciés",
                         'url' => controller_url ( "FFVV/licences" )
                 ),
-
+                array (
+                        'label' => "Sales",
+                        'url' => controller_url ( "FFVV/sales" )
+                ),
+                array (
+                        'label' => "Players",
+                        'url' => controller_url ( "FFVV/players" )
+                ),
+                array (
+                        'label' => "Qualif types",
+                        'url' => controller_url ( "FFVV/qualif_types" )
+                ),
         )
 );
 

@@ -33,60 +33,6 @@
  */
 
 
-
-// #################################################################################################
-$menu_bootstrap = array (
-		'label' => "Bootstrap",
-//		'class' => 'menuheader',
-		'url' => controller_url ( "bootstrap" ),
-		'submenu' => array (
-				array (
-						'label' => "Basic",
-						'url' => controller_url ( "bootstrap/basic" )
-				),
-				array (
-						'label' => "Blog",
-						'url' => controller_url ( "bootstrap/blog" )
-				),
-				array (
-						'label' => "Carousel",
-						'url' => controller_url ( "bootstrap/carousel" )
-				),
-				array (
-						'label' => "Cover",
-						'url' => controller_url ( "bootstrap/cover" )
-				),
-				array (
-						'label' => "Dashboard",
-						'url' => controller_url ( "bootstrap/dashboard" )
-				),
-				array (
-						'label' => "Grids",
-						'url' => controller_url ( "bootstrap/grids" )
-				),
-				array (
-						'label' => "jumbotron",
-						'url' => controller_url ( "bootstrap/jumbotron" )
-				),
-				array (
-						'label' => "narrow_jumbotron",
-						'url' => controller_url ( "bootstrap/narrow_jumbotron" )
-				),
-				array (
-						'label' => "sign_in",
-						'url' => controller_url ( "bootstrap/sign_in" )
-				),
-				array (
-						'label' => "sticky_footer_with_navbar",
-						'url' => controller_url ( "bootstrap/sticky_footer_with_navbar" )
-				),
-				array (
-						'label' => "Theme",
-						'url' => controller_url ( "bootstrap/theme" )
-				)
-		)
-);
-
 // #################################################################################################
 $menu_dev = array (
 		'label' => "Dev",
@@ -100,7 +46,6 @@ $menu_dev = array (
 						'label' => "PhpInfo",
 						'url' => controller_url ( "dev/phpinfo" )
 				),
-				$menu_bootstrap,
 				array (
 						'label' => "CodeIgniter",
 						'url' => "http://localhost/citemplate/user_guide/"
@@ -111,23 +56,8 @@ $menu_dev = array (
 				        'role' => 'admin'
 				),
 		        array (
-		                'label' => "Meta test",
-		                'url' => controller_url("meta_test1"),
-		                'role' => 'admin'
-		        ),
-		        array (
-		                'label' => "Meta test 2",
-		                'url' => controller_url("meta_test2"),
-		                'role' => 'admin'
-		        ),
-		        array (
 		                'label' => "REST",
 		                'url' => controller_url("rest_server"),
-		                'role' => 'admin'
-		        ),
-		        array (
-		                'label' => "REST client",
-		                'url' => controller_url("dev/rest_client"),
 		                'role' => 'admin'
 		        ),
 		        array (
@@ -219,13 +149,14 @@ $menu_help = array (
 );
 
 $menu_members = array (
-        'label' => "Members",
+        'label' => "HEVA",
         //		'class' => 'menuheader',
         'submenu' => array (
                 array (
-                        'label' => "List",
-                        'url' => controller_url ( "welcome/about" )
-                )
+                        'label' => "Licences",
+                        'url' => controller_url ( "FFVV/licences" )
+                ),
+
         )
 );
 

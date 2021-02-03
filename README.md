@@ -1,6 +1,8 @@
 # GVV3
 Gestion vol à voile version 3
 
+(Projet abandonné), remplacé par la même chose basé sur WEBAPP et le framework Laravel.
+
 Ce projet est la version 3 de GVV. C'est une réécriture complete. Il est basé sur le projet CITEMPLATE qui doit être installé avant lui.
 
 Il permet 
